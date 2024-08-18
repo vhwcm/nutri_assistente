@@ -1,0 +1,52 @@
+{
+  "name": "knack/zerobounce",
+  "description": "Knack Zerobounce API wrapper",
+  "type": "package",
+  "license": "mit",
+  "authors": [
+    {
+      "name": "Doug Woodrow",
+      "email": "doug@joinknack.com"
+    }
+  ],
+  "scripts": {
+    "cghooks": "vendor/bin/cghooks",
+    "test": "./vendor/phpunit/phpunit/phpunit --coverage-clover ./tests/_output/coverage.xml"
+  },
+  "extra": {
+    "hooks": {
+      "pre-commit": [
+        "php-cs-fixer fix",
+        "phpunit --configuration ./phpunit.xml --coverage-clover ./tests/_output/coverage.xml"
+      ]
+    }
+  },
+  "require": {
+    "php": ">=7.2",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^6 | ^7",
+    "nesbot/carbon": "^1 | ^2"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master",
+    "phpunit/phpunit": "^8",
+    "vlucas/phpdotenv": "^2.2",
+    "illuminate/support": "^7",
+    "squizlabs/php_codesniffer": "^3.4",
+    "phpmd/phpmd": "^2.7",
+    "friendsofphp/php-cs-fixer": "^2.15",
+    "brainmaestro/composer-git-hooks": "^2.8",
+    "mockery/mockery": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Knack\\ZeroBounce\\": "src/Knack/ZeroBounce"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Knack\\ZeroBounce\\Tests\\": "tests/"
+    }
+  }
+}
