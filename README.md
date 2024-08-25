@@ -17,7 +17,7 @@ I used the Laravel framework to develop this site and some APIs to verify email 
 
 ## Usage
 
-If you are a nutritionist, register with Nutri Assistente to obtain a nutritionist code. You can find this code oen the "Your Account" page. As a nutritionist, you can create patients exclusively for yourself or share your code with a patient who will register to track their progress.
+If you are a nutritionist, register with Nutri Assistente to obtain a nutritionist code. You can find this code on the "Your Account" page. As a nutritionist, you can create patients exclusively for yourself or share your code with a patient who will register to track their progress.
 
 Else, you can track your body evolution and calculate your basal metabolic rate, total energy expenditure, see if you are overweight, etc.
 
