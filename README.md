@@ -35,8 +35,6 @@ Else, you can track your body evolution and calculate your basal metabolic rate,
 
 ![Anamnesia Screenshot](images/im7.png)
 
-![Account Screenshot](images/im8.png)
-
 ![standalone Screenshot](images/im9.png)
 
 ## Contribution Request
