@@ -1,4 +1,4 @@
-# Nutri Assistente
+# Nutri Assistente - Projeto descontinuado devido a falta de um domínio
 
 This site: http://nutriassistente.kesug.com is the cs50 final project.
 A nutritionist told me that it was difficult to find a place where she could perform calculations and track the progress of her patients for free. That's why I decided to create a website that could perform these calculations (provided by the nutritionist) and allow for patient tracking.
@@ -37,9 +37,6 @@ Else, you can track your body evolution and calculate your basal metabolic rate,
 
 ![standalone Screenshot](images/im9.png)
 
-## Contribution Request
-
-I would like anyone who tests and finds errors or bugs to report them in the issues so that I can improve the code.
 
 ## License
 
